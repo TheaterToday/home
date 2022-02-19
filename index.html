@@ -1,0 +1,42 @@
+<!-- Welcome to the greatest webpage ever. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Theater Today</title>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css" />
+
+    <!-- Raleway Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=fallback" />
+
+    <!-- UnifrakturCook Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="companyName">Theater Today</h1>
+    <h2 id="displayDateTime"></h2>
+    <nav id="navigation">
+      <ul>
+        <li><a href="lucas.html">Lucas</a></li>
+      </ul>
+    </nav>
+  </body>
+
+    <script type="text/javascript">
+
+    const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    var today = new Date();
+    let name = month[today.getMonth()];
+    var day = today.getDay();
+    var date =  name + ' ' + today.getDate() + ', ' + today.getFullYear();
+
+    document.getElementById("displayDateTime").innerHTML = date;
+
+    </script>
+</html>

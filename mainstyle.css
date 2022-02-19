@@ -1,0 +1,54 @@
+/* Cascading Style Sheet, main file */
+
+body {
+  max-width: 1920px; /* Maximum page width */
+  background-color: #ffffff;
+  font-family: Raleway, sans-serif;
+  margin: 0 auto; /* Align horizontally in the center */
+}
+
+#companyName {
+  text-align: center;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 80px;
+  background-color: darkblue;
+}
+
+#displayDateTime {
+  text-align: right;
+  padding: 2%;
+}
+
+/* Everything below is for navigation bar. */
+#navigation {
+  text-align: center;
+  border-bottom-color: #d3d3d3;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 40px;
+  background-color: #f3f3f3;
+}
+
+#navigation > ul {
+  display: inline-flex; /* Align navigation/menu bar to the center */
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#navigation > ul > li {
+  list-style-type: none;
+}
+
+#navigation > ul > li > a {
+  display: block;
+  color: black;
+  padding: 24px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navigation > ul > li > a:hover {
+  background-color: #999;
+  color: white;
+}
