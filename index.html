@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <title>Theater Today</title>
     <link rel="stylesheet" type="text/css" href="mainstyle.css" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css">
 
     <!-- Raleway Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,15 +20,39 @@
   </head>
 
   <body>
-    <h1 id="companyName">Theater Today</h1>
-    <h2 id="displayDateTime"></h2>
-    <nav id="navigation">
-      <ul>
-        <li><a href="lucas.html">Lucas</a></li>
-      </ul>
-    </nav>
+    <div class="header">
+      <div class="premium-stuff">
+        <div class="premium subscribe"><a class="premium" href="#foraesthetics">Subscribe</a></div>
+        <div class="premium log-in"><a class="premium" href="#whatdidIsay?">Log In</a></div>
+        <div class="premium sign-up"><a class="premium" href="#sorrytodisappoint">Sign Up </a></div>
+      </div>
+
+      <div class="banner">
+        <div class="flexbox-item latestNews">Latest News</div>
+        <h1 class="flexbox-item companyName">Theater Today</h1>
+        <div class="flexbox-item displayDateTime"></div>
+      </div>
+
+      <nav id="navigation">
+        <ul>
+          <li><a href="#Broadway!">Broadway Performances</a></li>
+          <li><a href="#TonyWinnters!">Tony Winners</a></li>
+          <li><a href="#Topten!!">Top 10 Performances of 2021</a></li>
+          <li><a href="#CastingCalls!">Casting Calls</a></li>
+          <li><a href="#StaffMembers!">Our Staff</a></li>
+          <li><a href="#Sponsers?!">Become a Sponsor!</a></li>
+          <li><a href="#COVIDSUCKS!">Impact of COVID-19</a></li>
+          <li><a href="#PromiseWeWon'tBite!">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="article-stuff">
+      <div class="articles cirquedusoleil">><a href="lucas.html">A Stunning Masterpiece: Cirque Du Soleil is a national sensation.</a></div>
+    </div>
   </body>
 
+    <!-- Auto updating time -->
     <script type="text/javascript">
 
     const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
@@ -36,7 +61,7 @@
     var day = today.getDay();
     var date =  name + ' ' + today.getDate() + ', ' + today.getFullYear();
 
-    document.getElementById("displayDateTime").innerHTML = date;
+    document.getElementsByClassName("displayDateTime")[0].innerHTML = date;
 
     </script>
 </html>

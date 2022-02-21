@@ -1,32 +1,41 @@
 /* Cascading Style Sheet, main file */
 
 body {
-  max-width: 1920px; /* Maximum page width */
-  background-color: #ffffff;
-  font-family: Raleway, sans-serif;
-  margin: 0 auto; /* Align horizontally in the center */
+  margin: 0;
 }
 
-#companyName {
+.header { /** Reminder to switch to .header**/
+  max-width: 0 auto; /* Maximum page width */
+  font-family: Raleway, sans-serif;
+}
+
+.companyName {
   text-align: center;
   font-family: 'UnifrakturCook', cursive;
-  font-size: 80px;
-  background-color: darkblue;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-#displayDateTime {
+.displayDateTime {
   text-align: right;
-  padding: 2%;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.latestNews {
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Everything below is for navigation bar. */
 #navigation {
   text-align: center;
-  border-bottom-color: #d3d3d3;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  margin-bottom: 40px;
-  background-color: #f3f3f3;
+  margin-bottom: 60px;
+  background-color: #8ecae6;
 }
 
 #navigation > ul {
@@ -43,12 +52,26 @@ body {
 #navigation > ul > li > a {
   display: block;
   color: black;
-  padding: 24px 20px;
+  padding: 10px 20px;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
 }
 
 #navigation > ul > li > a:hover {
-  background-color: #999;
+  background-color: #9fcce6;
   color: white;
+  font-weight: bold;
+}
+
+.articles {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.cirquedusoleil {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
 }
