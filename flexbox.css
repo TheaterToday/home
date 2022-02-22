@@ -81,3 +81,10 @@ a {
   width: 500px;
   height: 500px;
 }
+
+.author-stuff {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
