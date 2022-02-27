@@ -1,0 +1,194 @@
+/* Cascading Style Sheet, main file */
+
+body {
+  margin: 0;
+}
+
+.header {
+  font-family: Raleway, sans-serif;
+}
+
+.companyName {
+  text-align: center;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.displayDateTime {
+  text-align: right;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.latestNews {
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Everything below is for navigation bar. */
+#navigation {
+  text-align: center;
+  margin-bottom: 60px;
+  background-color: #8ecae6;
+  position: sticky;
+  top: 0;
+}
+
+#navigation > ul {
+  display: inline-flex; /* Align navigation/menu bar to the center */
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#navigation > ul > li {
+  list-style-type: none;
+}
+
+#navigation > ul > li > a {
+  display: block;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+#navigation > ul > li > a:hover {
+  background-color: #9fcce6;
+  color: white;
+  font-weight: bold;
+}
+
+.articles {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cirquedusoleil {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.title {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: left;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: left;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 28px;
+  color: #686868;
+}
+
+.authorName, .publishDate {
+  padding-left: 20px;
+  text-align: left;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.publishDate {
+  color: #333;
+  padding-top: 6px;
+  font-size: 16px;
+}
+
+.profilePicture {
+  margin-left: 400px;
+  width: 60px;
+  height: auto;
+}
+
+.image {
+  display: block;
+  margin-left: 400px;
+  margin-right: auto;
+  width: calc(100% - 800px);
+}
+
+.caption {
+  color: #333;
+  font-size: 14px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.verdict {
+  display: block;
+  margin-left: 400px;
+  margin-bottom: 0px;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  width: 100px;
+}
+
+#top-footer {
+  padding-left: 330px;
+  margin-top: 0px;
+  background-color: #abb8c3;
+}
+
+
+#footer-logo {
+  font-family: 'UnifrakturCook', cursive;
+  color: black;
+  padding-top: 5px;
+  padding-left: 70px;
+}
+
+#bottom-footer {
+  padding-left: 330px;
+  background-color: black;
+}
+
+#bottom-navigation {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#credits {
+  text-align: left;
+  margin: 0;
+  color: #333;
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 70px;
+}
