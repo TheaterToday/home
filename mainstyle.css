@@ -155,3 +155,40 @@ p {
   color: black;
   width: 100px;
 }
+
+#top-footer {
+  padding-left: 330px;
+  margin-top: 0px;
+  background-color: #abb8c3;
+}
+
+
+#footer-logo {
+  font-family: 'UnifrakturCook', cursive;
+  color: black;
+  padding-top: 5px;
+  padding-left: 70px;
+}
+
+#bottom-footer {
+  padding-left: 330px;
+  background-color: black;
+}
+
+#bottom-navigation {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#credits {
+  text-align: left;
+  margin: 0;
+  color: #333;
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 70px;
+}
