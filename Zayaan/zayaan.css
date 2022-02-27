@@ -1,0 +1,59 @@
+h2
+{
+    text-align: center;
+    color: dimgray;
+    font-size: 20pt;
+}
+
+h3
+{
+    color:cornflowerblue;
+    font-size: 18pt;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: underline;
+    color: blue;
+    padding: 3px;
+}
+
+.title
+{
+    text-align: center;
+    font-family: Times, serif;
+    font-size: 28pt;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image-text-align
+{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 1%;
+}
+
+#intropic
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom
+{
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body
+{
+    margin-bottom: 2%;
+}
+
