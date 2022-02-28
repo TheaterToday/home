@@ -35,7 +35,7 @@ body {
   color: white;
 }
 
-/* Everything below is for navigation bar. */
+/* Below is for navigation bar. */
 #navigation {
   text-align: center;
   margin-bottom: 60px;
@@ -70,17 +70,24 @@ body {
   font-weight: bold;
 }
 
-.articles {
-  margin-left: 250px;
-  margin-right: 250px;
+hr {
+  margin-left: 400px;
+  margin-right: 400px;
+  border-top-width: 1px;
+  border-top-color: #333;
+  border-top-style: solid;
 }
 
-.cirquedusoleil {
-  font-size: 24px;
-  color: black;
-  font-weight: bold;
-  padding-left: 10px;
+#intro {
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+#section {
+  margin-left: 400px;
+}
+
+/* Articles, for hub page articles check out articles.css */
 
 .title {
   margin-left: 400px;

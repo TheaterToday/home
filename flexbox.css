@@ -1,7 +1,6 @@
-/** Flexbox **/
+/* Flexbox */
 
-/** premium stuff **/
-
+/* premium stuff */
 
 .premium-stuff {
   display: flex;
@@ -12,7 +11,7 @@
 a {
   padding: 24px 20px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .premium {
@@ -22,7 +21,6 @@ a {
   font-size: 12px;
   text-decoration: none;
   color: white;
-
 }
 
 .premium a:hover {
@@ -30,8 +28,7 @@ a {
   color: black;
 }
 
-
-/** banner **/
+/* banner */
 
 .banner {
   display: flex;
@@ -70,17 +67,7 @@ a {
   box-sizing: border-box;
 }
 
-/** actual articles**/
-
-.article-stuff {
-  display: flex;
-}
-
-.articles {
-  border: 3px solid;
-  width: 500px;
-  height: 500px;
-}
+/* actual articles */
 
 .author-stuff {
   display: flex;
@@ -102,7 +89,6 @@ a {
   padding-bottom: 0;
   padding-right: 10px;
   padding-left: 30px;
-  font-size: 14px;
   color: black;
 }
 
