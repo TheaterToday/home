@@ -71,8 +71,8 @@ body {
 }
 
 hr {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
   border-top-width: 1px;
   border-top-color: #333;
   border-top-style: solid;
@@ -84,14 +84,14 @@ hr {
 }
 
 #section {
-  margin-left: 400px;
+  margin-left: 20%;
 }
 
 /* Articles, for hub page articles check out articles.css */
 
 .title {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: left;
   font-family: 'Noto Serif Display', serif;
   font-size: 48px;
@@ -99,8 +99,8 @@ hr {
 }
 
 .subtitle {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: left;
   font-family: 'Noto Serif Display', serif;
   font-size: 28px;
@@ -123,14 +123,14 @@ hr {
 }
 
 .profilePicture {
-  margin-left: 400px;
+  margin-left: 20%;
   width: 60px;
   height: auto;
 }
 
 .image {
   display: block;
-  margin-left: 400px;
+  margin-left: 20%;
   margin-right: auto;
   width: calc(100% - 800px);
 }
@@ -138,13 +138,13 @@ hr {
 .caption {
   color: #333;
   font-size: 14px;
-  margin-left: 400px;
+  margin-left: 20%;
   margin-bottom: 40px;
 }
 
 p {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 40px;
   font-family: 'Noto Serif Display', serif;
   font-size: 20px;
@@ -154,7 +154,7 @@ p {
 
 .verdict {
   display: block;
-  margin-left: 400px;
+  margin-left: 20%;
   margin-bottom: 0px;
   font-family: 'Noto Serif Display', serif;
   font-size: 20px;
